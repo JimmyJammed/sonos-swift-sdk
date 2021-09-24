@@ -1,7 +1,7 @@
 Sonos Swift SDK
 ========
 
-[![Xcode Builder](https://github.com/JimmyJammed/sonos-swift-sdk/actions/workflows/xcode-builder.yml/badge.svg)](https://github.com/JimmyJammed/sonos-swift-sdk/actions/workflows/xcode-builder.yml)
+[![Swift](https://github.com/JimmyJammed/sonos-swift-sdk/actions/workflows/swift.yml/badge.svg)](https://github.com/JimmyJammed/sonos-swift-sdk/actions/workflows/swift.yml)
 [![SwiftLint](https://github.com/JimmyJammed/sonos-swift-sdk/actions/workflows/SwiftLint.yml/badge.svg)](https://github.com/JimmyJammed/sonos-swift-sdk/actions/workflows/SwiftLint.yml)
 [![License](https://img.shields.io/cocoapods/l/Swinject.svg?style=flat)](http://cocoapods.org/pods/Swinject)
 [![Platforms](https://img.shields.io/badge/platform-iOS%20%7C%20macOS-lightgrey.svg)](http://cocoapods.org/pods/Swinject)
