@@ -67,6 +67,10 @@ public class SonosManager: ObservableObject {
     lazy var groupPlaybackService: GroupPlaybackService = {
         return GroupPlaybackService()
     }()
+    
+    lazy var groupPlaybackPlayModeService: GroupPlaybackPlayModeService = {
+        return GroupPlaybackPlayModeService()
+    }()
 
     lazy var groupVolumeService: GroupVolumeService = {
         return GroupVolumeService()
