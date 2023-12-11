@@ -10,7 +10,7 @@ import Foundation
 extension SonosManager {
 
     public func getGroupPlaybackPlayMode(groupId: String,
-                                         playModes: [String],
+                                         playModes: [String:Any],
                                          success: @escaping () -> Void,
                                          failure: @escaping (Error?) -> Void) {
 

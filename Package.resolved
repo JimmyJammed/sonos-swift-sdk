@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
         "state": {
           "branch": null,
-          "revision": "d120af1e8638c7da36c8481fd61a66c0c08dc4fc",
-          "version": "5.4.4"
+          "revision": "3dc6a42c7727c49bf26508e29b0a0b35f9c7e1ad",
+          "version": "5.8.1"
         }
       },
       {
@@ -21,11 +21,11 @@
       },
       {
         "package": "SonosNetworking",
-        "repositoryURL": "https://github.com/JimmyJammed/sonos-swift-networking.git",
+        "repositoryURL": "https://github.com/MiaShopgal/sonos-swift-networking.git",
         "state": {
-          "branch": null,
-          "revision": "bfc2917cbceb6ee63490c00ee446220195586bb4",
-          "version": "1.0.0"
+          "branch": "setPlayback",
+          "revision": "69e77f46843cce0b845510fb2182d74d32fdad8a",
+          "version": null
         }
       },
       {

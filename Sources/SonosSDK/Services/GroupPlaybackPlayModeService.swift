@@ -12,7 +12,7 @@ struct GroupPlaybackPlayModeService {
 
     func getGroupPlaybackPlayMode(tokenString: String,
                                   groupId: String,
-                                  playModes: [String],
+                                  playModes: [String:Any],
                                   success: @escaping (() -> ()),
                                   failure: @escaping (Error?) -> ()) {
 
