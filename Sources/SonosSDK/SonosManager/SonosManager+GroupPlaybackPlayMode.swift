@@ -9,22 +9,22 @@ import Foundation
 
 extension SonosManager {
 
-    public func getGroupPlaybackPlayMode(groupId: String,
-                                         playModes: [String:Any],
+    public func setGroupPlaybackPlayMode(groupId: String,
+                                         playModes: [String: Any],
                                          success: @escaping () -> Void,
                                          failure: @escaping (Error?) -> Void) {
 
         guard let authenticationToken = authenticationToken else {
-            
+
             let error = NSError.errorWithMessage(message: "Could not load authentication token.")
-            
+
             failure(error)
-            
+
             return
-            
+
         }
 
-        groupPlaybackPlayModeService.getGroupPlaybackPlayMode(tokenString: authenticationToken.access_token,
+        groupPlaybackPlayModeService.setGroupPlaybackPlayMode(tokenString: authenticationToken.access_token,
                                                               groupId: groupId, playModes: playModes) {
             success()
 

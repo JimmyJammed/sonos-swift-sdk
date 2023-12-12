@@ -10,7 +10,7 @@ import SonosNetworking
 
 struct GroupPlaybackPlayModeService {
 
-    func getGroupPlaybackPlayMode(tokenString: String,
+    func setGroupPlaybackPlayMode(tokenString: String,
                                   groupId: String,
                                   playModes: [String:Any],
                                   success: @escaping (() -> ()),
