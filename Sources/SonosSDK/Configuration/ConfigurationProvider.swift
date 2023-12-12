@@ -11,7 +11,7 @@ import Swinject
 class ConfigurationProvider {
 
     // Currently using Swinject
-    let container = Container()
+    let container = Swinject.Container()
 
     // Singleton
     static let shared = ConfigurationProvider()
