@@ -1,0 +1,68 @@
+name: SonosDemo
+options:
+  bundleIdPrefix: biz.hickman
+packages:
+  SonosSDK:
+    path: .
+settings:
+  SWIFT_VERSION: "6.0"
+targets:
+  SonosDemo:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources: [Demo]
+    info:
+      path: Demo/Info.plist
+      properties:
+        CFBundleURLTypes:
+          - CFBundleURLSchemes: [sonos-demo]
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+    dependencies:
+      - package: SonosSDK
+      - package: SonosSDK
+        product: SonosSDKUI
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+      TARGETED_DEVICE_FAMILY: "1,2"
+  SonosDemoMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "15.0"
+    sources: [Demo]
+    info:
+      path: Demo/Info.plist
+      properties:
+        CFBundleURLTypes:
+          - CFBundleURLSchemes: [sonos-demo]
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+    dependencies:
+      - package: SonosSDK
+      - package: SonosSDK
+        product: SonosSDKUI
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+  SonosDemoUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources: [DemoUITests]
+    dependencies:
+      - target: SonosDemo
+    settings:
+      GENERATE_INFOPLIST_FILE: YES
+schemes:
+  SonosDemo:
+    build:
+      targets:
+        SonosDemo: all
+    test:
+      targets: [SonosDemoUITests]
+  SonosDemoMac:
+    build:
+      targets:
+        SonosDemoMac: all

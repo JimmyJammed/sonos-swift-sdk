@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24F1416552E1B22F1CDC560F /* SonosSDKUI in Frameworks */ = {isa = PBXBuildFile; productRef = D77623DEA4778F598C46DE0D /* SonosSDKUI */; };
+		43CFBF0369EAD9B49A24CDD0 /* SonosDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE787FEDA5D58081595E7B6 /* SonosDemoApp.swift */; };
+		5658DBDE2E9F4F633509D75B /* SonosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5D3CFB018DA53FA79184E4 /* SonosUITests.swift */; };
+		84A4F96BB7E503C4E41E5A38 /* SonosSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 70A556A979B38DD02016AF96 /* SonosSDK */; };
+		976973081559C40CB1F9463E /* SonosSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 28573335B288D8E8C140A0F5 /* SonosSDK */; };
+		ADA76BC49950053765FDF700 /* SonosSDKUI in Frameworks */ = {isa = PBXBuildFile; productRef = DF7DD3218A114BB5C15EA476 /* SonosSDKUI */; };
+		B0E05947B5C5A2CEE6C81987 /* SonosDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE787FEDA5D58081595E7B6 /* SonosDemoApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4769EDF771586DDC54070304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F1E612DDB6D86B3E1EE2E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288396CE7D60D876E069088A;
+			remoteInfo = SonosDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168FD67675423894E7333EE8 /* SonosDemoUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SonosDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE787FEDA5D58081595E7B6 /* SonosDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosDemoApp.swift; sourceTree = "<group>"; };
+		821760D74D958529B798F99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8A74F7396388D9AA6253224B /* SonosDemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonosDemoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F416BF233BEADCCB264811B /* sonos-swift-sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "sonos-swift-sdk"; path = .; sourceTree = SOURCE_ROOT; };
+		DA5D3CFB018DA53FA79184E4 /* SonosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonosUITests.swift; sourceTree = "<group>"; };
+		F71EDD17AD364D00D2DEEF98 /* SonosDemo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SonosDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2165EF8A8CA667CC47A6520D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976973081559C40CB1F9463E /* SonosSDK in Frameworks */,
+				ADA76BC49950053765FDF700 /* SonosSDKUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47280BDC4BB61DC5851B3A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A4F96BB7E503C4E41E5A38 /* SonosSDK in Frameworks */,
+				24F1416552E1B22F1CDC560F /* SonosSDKUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F51D6D1C9A23B8A244E6E0 = {
+			isa = PBXGroup;
+			children = (
+				3E5CD109BB70FBCC5243CCF5 /* Demo */,
+				BDEEA1DB0920773752C425D2 /* DemoUITests */,
+				FCFF1E8CA6AE3583981A62F4 /* Packages */,
+				6656E24A680828351EA43727 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E5CD109BB70FBCC5243CCF5 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				821760D74D958529B798F99A /* Info.plist */,
+				5BE787FEDA5D58081595E7B6 /* SonosDemoApp.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		6656E24A680828351EA43727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F71EDD17AD364D00D2DEEF98 /* SonosDemo.app */,
+				8A74F7396388D9AA6253224B /* SonosDemoMac.app */,
+				168FD67675423894E7333EE8 /* SonosDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEEA1DB0920773752C425D2 /* DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5D3CFB018DA53FA79184E4 /* SonosUITests.swift */,
+			);
+			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		FCFF1E8CA6AE3583981A62F4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8F416BF233BEADCCB264811B /* sonos-swift-sdk */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288396CE7D60D876E069088A /* SonosDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F81DECB75C64EC4F3C52BA6 /* Build configuration list for PBXNativeTarget "SonosDemo" */;
+			buildPhases = (
+				CCF8DA0C860A907533421B80 /* Sources */,
+				47280BDC4BB61DC5851B3A5A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonosDemo;
+			packageProductDependencies = (
+				70A556A979B38DD02016AF96 /* SonosSDK */,
+				D77623DEA4778F598C46DE0D /* SonosSDKUI */,
+			);
+			productName = SonosDemo;
+			productReference = F71EDD17AD364D00D2DEEF98 /* SonosDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A181ADB61C9144FFCDD12C03 /* SonosDemoMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE6B53D7CF8FF58FE060E7C3 /* Build configuration list for PBXNativeTarget "SonosDemoMac" */;
+			buildPhases = (
+				9EDC8B8A340BC64293714EE6 /* Sources */,
+				2165EF8A8CA667CC47A6520D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonosDemoMac;
+			packageProductDependencies = (
+				28573335B288D8E8C140A0F5 /* SonosSDK */,
+				DF7DD3218A114BB5C15EA476 /* SonosSDKUI */,
+			);
+			productName = SonosDemoMac;
+			productReference = 8A74F7396388D9AA6253224B /* SonosDemoMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A18637CA0B7126D47287D534 /* SonosDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C6724A0A7BFE25B545FE7DA /* Build configuration list for PBXNativeTarget "SonosDemoUITests" */;
+			buildPhases = (
+				39CBCF2F0200C496ABB65075 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D105F6A99BD0D1932B3E52D /* PBXTargetDependency */,
+			);
+			name = SonosDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = SonosDemoUITests;
+			productReference = 168FD67675423894E7333EE8 /* SonosDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F1E612DDB6D86B3E1EE2E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A18637CA0B7126D47287D534 = {
+						TestTargetID = 288396CE7D60D876E069088A;
+					};
+				};
+			};
+			buildConfigurationList = C89F1553EEF820EE2E3DABF1 /* Build configuration list for PBXProject "SonosDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 01F51D6D1C9A23B8A244E6E0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BE7451BC8F5E053DA491C0EC /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6656E24A680828351EA43727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288396CE7D60D876E069088A /* SonosDemo */,
+				A181ADB61C9144FFCDD12C03 /* SonosDemoMac */,
+				A18637CA0B7126D47287D534 /* SonosDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39CBCF2F0200C496ABB65075 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5658DBDE2E9F4F633509D75B /* SonosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDC8B8A340BC64293714EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0E05947B5C5A2CEE6C81987 /* SonosDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF8DA0C860A907533421B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CFBF0369EAD9B49A24CDD0 /* SonosDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D105F6A99BD0D1932B3E52D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288396CE7D60D876E069088A /* SonosDemo */;
+			targetProxy = 4769EDF771586DDC54070304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D21B182089347950CDFD084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hickman.SonosDemoMac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D91651B759C813E461F889E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hickman.SonosDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7447F24C51162E7279248674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		7DCBD28E9442F1B37EDA9F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		BC68AA20BDFA108BE980A2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hickman.SonosDemoMac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4227D88F900430DDB91976F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hickman.SonosDemoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonosDemo;
+			};
+			name = Debug;
+		};
+		CB4EE07580C7BC8D7994E81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hickman.SonosDemoUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SonosDemo;
+			};
+			name = Release;
+		};
+		FD4BEBFDB5142F29000AF28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hickman.SonosDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F81DECB75C64EC4F3C52BA6 /* Build configuration list for PBXNativeTarget "SonosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D91651B759C813E461F889E /* Debug */,
+				FD4BEBFDB5142F29000AF28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C6724A0A7BFE25B545FE7DA /* Build configuration list for PBXNativeTarget "SonosDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4227D88F900430DDB91976F /* Debug */,
+				CB4EE07580C7BC8D7994E81E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C89F1553EEF820EE2E3DABF1 /* Build configuration list for PBXProject "SonosDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7447F24C51162E7279248674 /* Debug */,
+				7DCBD28E9442F1B37EDA9F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE6B53D7CF8FF58FE060E7C3 /* Build configuration list for PBXNativeTarget "SonosDemoMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC68AA20BDFA108BE980A2B2 /* Debug */,
+				1D21B182089347950CDFD084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		BE7451BC8F5E053DA491C0EC /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28573335B288D8E8C140A0F5 /* SonosSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonosSDK;
+		};
+		70A556A979B38DD02016AF96 /* SonosSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonosSDK;
+		};
+		D77623DEA4778F598C46DE0D /* SonosSDKUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonosSDKUI;
+		};
+		DF7DD3218A114BB5C15EA476 /* SonosSDKUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SonosSDKUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8F1E612DDB6D86B3E1EE2E11 /* Project object */;
+}
